@@ -1,0 +1,5 @@
+#igore package.lock.json
+package.lock.json
+#igore node_modules
+node_modules
+

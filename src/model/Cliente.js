@@ -12,3 +12,5 @@ constructor(id, nome, telefone, endereço){
 }
 
 module.exports=Clientes
+
+...Cliente.apply.apply.apply.

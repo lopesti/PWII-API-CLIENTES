@@ -1,0 +1,28 @@
+{
+  "name": "pwii_api_clientes",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lopesti/PWII-API-CLIENTES.git#readme",
+  "bugs": {
+    "url": "https://github.com/lopesti/PWII-API-CLIENTES.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lopesti/PWII-API-CLIENTES.git"
+  },
+  "license": "ISC",
+  "author": "Guilherme",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.4",
+    "prisma": "^6.19.3"
+  }
+}

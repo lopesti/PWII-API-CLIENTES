@@ -1,21 +1,17 @@
-generetor client{
-
-    provider = "prisma-client-js"
+generator client {
+  provider = "prisma-client-js"
 }
 
-datasoucer  db{
-
-    provider ="mysql"
-    url = env("DB_CONNECTION")
+datasource db {
+  provider = "mysql"
+  url      = env("DB_CONNECTION")
 }
 
-model Cliente{
+model Cliente {
+  id       Int     @id @default(autoincrement())
+  nome     String
+  telefone String?
+  endereco String?
 
-    id INT @id @default(autoincrement())
-    nomw String
-    telefone String?
-    endereco String?
-
-
-@@map("clientes")
+  @@map("clientes")
 }

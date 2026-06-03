@@ -1,6 +1,11 @@
-# Ignore package.lock.json
-package-lock.json 
+# Pastas de dependências
+node_modules/
 
-# Ignore node_modules
-node_modules
+# Arquivo de configuração de ambiente (NUNCA envie para o GitHub)
+.env
 
+# Logs e arquivos de cache
+npm-debug.log
+.DS_Store
+dist/
+build/
